@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ReactJs-Course_sell_website/static/css/main.efabdc67.css",
+    "main.js": "/ReactJs-Course_sell_website/static/js/main.25f996bd.js",
+    "static/media/person.svg": "/ReactJs-Course_sell_website/static/media/person.b5cb887c796ee4266bb74427f512afb9.svg",
+    "static/media/signup.png": "/ReactJs-Course_sell_website/static/media/signup.b431d919de01b6515dd6.png",
+    "static/media/login.png": "/ReactJs-Course_sell_website/static/media/login.4d877a447365e5137b67.png",
+    "static/media/frame.png": "/ReactJs-Course_sell_website/static/media/frame.3a238e5f26d676376e1d.png",
+    "static/media/Logo.svg": "/ReactJs-Course_sell_website/static/media/Logo.0d90853fa1468dbe2d8d82c0ea06b8b1.svg",
+    "static/media/horizon.svg": "/ReactJs-Course_sell_website/static/media/horizon.5ea186da58d78e803643a50f8ab812e1.svg",
+    "index.html": "/ReactJs-Course_sell_website/index.html",
+    "main.efabdc67.css.map": "/ReactJs-Course_sell_website/static/css/main.efabdc67.css.map",
+    "main.25f996bd.js.map": "/ReactJs-Course_sell_website/static/js/main.25f996bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efabdc67.css",
+    "static/js/main.25f996bd.js"
+  ]
+}
