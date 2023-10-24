@@ -44,14 +44,14 @@ function Contact() {
     };
 
     return (
-        <div className="relative bg-white text-black h-[100vh] overflow-y-hidden">
-            <div className="relative contact-round h-1/2  bg-black text-white">
-                <div className="absolute bottom-1/4 px-28 w-fit italic text-5xl font-medium leading-normal max-md:text-3xl max-sm:px-10">
+        <div className="relative bg-white min-h-screen text-black">
+            <div className="relative contact-round h-[300px]  bg-black text-white">
+                <div className="absolute top-16 left-3 px-28 w-fit italic text-5xl font-medium leading-normal max-md:text-3xl max-sm:px-10">
                     Work for yourself, not<br />by yourself, with StudyNotion
                 </div>
             </div>
-            <div className="max-xl:flex max-xl:gap-20 max-xl:pt-10 max-xl:px-10 max-lg:flex-col max-lg:items-center max-lg:absolute max-lg:w-screen max-lg:top-[35%]">
-                <div className="px-20 grow mt-16 flex flex-col gap-10 max-lg:order-last max-sm:px-0 max-md:pb-5">
+            <div className="max-xl:flex max-xl:gap-20 max-xl:pt-10 max-xl:px-10 max-lg:flex-col max-lg:items-center max-lg:absolute max-lg:w-screen max-lg:top-[300px]">
+                <div className=" bg-white rounded-xl px-20 grow my-16 flex flex-col gap-10 max-lg:order-last max-sm:px-7 py-1">
                     <div>
                         <h1 className="text-lg">General inquires</h1>
                         <p className="text-sm font-medium text-richblack-200">Reach us at <a className="underline text-black" href="mailto:email@example.com">email@example.com</a><br></br> and we will get back to you asap</p>
@@ -66,7 +66,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className="absolute shadow top-28 right-[10%] bg-white w-[400px] rounded-lg max-xl:static max-sm:w-[300px]">
+                <div className="bg-white absolute shadow top-28 right-[10%] w-[400px] rounded-lg max-xl:relative max-sm:w-[300px] max-lg:right-auto max-xl:top-0 max-lg:top-[-20px] max-md:top-[-80px]">
                     <form className="flex flex-col gap-6 justify-center p-10 text-sm font-medium">
                         <input
                             type="text"

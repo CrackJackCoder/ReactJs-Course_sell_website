@@ -48,7 +48,7 @@ function Home({isLogin, notification, setNotification,setCart,cart}) {
     }
     getCourses();
     return (
-        <div className=" bg-white text-3xl min-h-screen pt-20">
+        <div className=" bg-white text-3xl min-h-full pt-20">
             <div className="flex justify-center gap-3 max-md:hidden">
                 {
                     filterData.map((data) => {
