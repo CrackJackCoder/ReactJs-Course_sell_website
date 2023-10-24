@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className="relative min-h-screen bg-richblack-900 flex flex-col transition duration-1000">
+    <div className="relative bg-richblack-900 flex flex-col transition duration-1000 min-h-screen overflow-x-hidden">
       <Navbar isLogin={isLogin} notification={notification} setNotification={setNotification} setIsLogin={setIsLogin}></Navbar>
       {/* title, d1, d2, image, formtype, setIsLogin */}
       <Routes>
