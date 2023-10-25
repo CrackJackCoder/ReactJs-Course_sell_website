@@ -44,7 +44,7 @@ function Contact() {
     };
 
     return (
-        <div className="relative bg-white min-h-screen text-black">
+        <div className="bg-white min-h-screen text-black max-lg:pb-[1020px] overflow-y-auto">
             <div className="relative contact-round h-[300px]  bg-black text-white">
                 <div className="absolute top-16 left-3 px-28 w-fit italic text-5xl font-medium leading-normal max-md:text-3xl max-sm:px-10">
                     Work for yourself, not<br />by yourself, with StudyNotion

@@ -57,16 +57,17 @@ function Home({isLogin, notification, setNotification,setCart,cart}) {
                 }
             </div>
 
-
             <div className="flex justify-center mb-5">
                 <select className="absolute outline-none border border-richblack-200 text-center text-sm font-medium hidden max-md:block px-5 py-0">
-                    <option className="text-sm px-0  py-0"><FilterTab setfilterDatavar={setfilterDatavar} filterDatavar={filterDatavar} key={filterData[0].id} data={filterData[0]} /></option>
-                    <option className="text-sm px-0 py-0"><FilterTab setfilterDatavar={setfilterDatavar} filterDatavar={filterDatavar} key={filterData[1].id} data={filterData[1]} /></option>
-                    <option className="text-sm px-0 py-0"><FilterTab setfilterDatavar={setfilterDatavar} filterDatavar={filterDatavar} key={filterData[2].id} data={filterData[2]} /></option>
-                    <option className="text-sm px-0 py-0"><FilterTab setfilterDatavar={setfilterDatavar} filterDatavar={filterDatavar} key={filterData[3].id} data={filterData[3]} /></option>
-                    <option className="text-sm px-0 py-0"><FilterTab setfilterDatavar={setfilterDatavar} filterDatavar={filterDatavar} key={filterData[4].id} data={filterData[4]} /></option>
+                    {
+                    filterData.map((data) => {
+                        return <option className="text-sm px-0 py-0"><FilterTab setfilterDatavar={setfilterDatavar} filterDatavar={filterDatavar} key={data.id} data={data} /></option>  
+                    })
+                    }
                 </select>
             </div>
+
+            
 
 
             <div className="px-5 py-10 min-h-[85vh] flex gap-[50px] justify-center items-center flex-wrap">
