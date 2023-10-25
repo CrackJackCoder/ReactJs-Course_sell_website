@@ -58,7 +58,7 @@ function Card({ data, isLogin, notification, setNotification, cart, setCart }) {
     }
 
     return (
-        <div className="bg-white shadow-2xl  h-[370px] w-[300px] text-black cursor-default rounded-lg relative hover:scale-[1.04]">
+        <div className="bg-white shadow-2xl  h-[370px] w-[300px] text-black cursor-default rounded-2xl relative hover:scale-[1.04] border-b-[7px] border-blue-300">
             <div className="photo rounded-lg"><img src={data.image.url} /></div>
             {(setCart!==undefined) &&
                 <div className="absolute right-0 top-[33%] px-2">
