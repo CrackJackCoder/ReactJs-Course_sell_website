@@ -22,7 +22,7 @@ function Navbar(props) {
                     <Link to="/"><img className='w-40' src={Logo} alt='logo' width={0} height={20} loading='lazy'></img></Link>
                 </div>
                 <div className='hamburgerClass hide max-md:absolute max-md:left-0  max-md:top-0 max-md:translate-y-[32%]'>
-                    <div className=' flex justify-end max-md:bg-black max-md:text-center max-md:w-screen max-md:flex-col max-md:gap-5 max-md:rounded-b-3xl max-md:pb-5 border-b-4'>
+                    <div className=' flex justify-end max-md:bg-black max-md:text-center max-md:w-screen max-md:flex-col max-md:gap-5 max-md:rounded-b-3xl max-md:pb-5 max-md:border-b-4'>
                         <div className='flex justify-center items-center absolute left-0 w-screen max-md:static'>
                             <ul className='flex gap-x-6 max-md:flex-col max-md:gap-3'>
                                 <li onClick={myfunc}>
