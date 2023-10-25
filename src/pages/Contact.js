@@ -66,7 +66,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white absolute shadow top-28 right-[10%] w-[400px] rounded-lg max-xl:relative max-sm:w-[300px] max-lg:right-auto max-xl:top-0 max-lg:top-[-20px] max-md:top-[-80px]">
+                <div className="bg-white absolute shadow top-28 right-[10%] w-[400px] rounded-lg max-xl:relative max-sm:w-[330px] max-lg:right-auto max-xl:top-0 max-lg:top-[-20px] max-md:top-[-80px]">
                     <form className="flex flex-col gap-6 justify-center p-10 text-sm font-medium">
                         <input
                             type="text"
