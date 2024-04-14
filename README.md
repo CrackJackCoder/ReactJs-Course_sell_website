@@ -4,20 +4,20 @@ Website you can enroll and remove number of courses on your dashboard after logi
 
 # Key learnings from this project:
 ✔️ Parcel <br />
-✔️JavaScript Fundamentals
-✔️Local Storage
-✔️ Config Driven UI
-✔️ Props and State
-✔️ State Management
-✔️ React Hooks
-✔️ Custom Hooks
-✔️ React Context
-✔️ React Router
-✔️ Lazy Loading
-✔️React Data Flow
+✔️JavaScript Fundamentals <br />
+✔️Local Storage <br />
+✔️ Config Driven UI <br />
+✔️ Props and State <br />
+✔️ State Management <br />
+✔️ React Hooks <br />
+✔️ Custom Hooks <br />
+✔️ React Context <br />
+✔️ React Router <br />
+✔️ Lazy Loading <br />
+✔️React Data Flow <br />
 
-Test User:
-Email: abc@gmail.com
-pass: 1234
+Test User:<br />
+Email: abc@gmail.com <br />
+pass: 1234<br />
 
 Note: There is no integration of backend in this. For login and signup feautures we are using Local Storage.
