@@ -1,5 +1,5 @@
 # Website Intro:
-Website you can enroll and remove number of courses on your dashboard after login. For login we have test user already but you can create your own account using signUp form 🎇
+Website  where you can enroll and remove number of courses on your dashboard after login. For login we have test user already but you can create your own account using signUp form 🎇
 
 
 # Key learnings from this project:
@@ -20,4 +20,4 @@ Test User:<br />
 Email: abc@gmail.com <br />
 pass: 1234<br />
 
-Note: There is no integration of backend in this. For login and signup feautures we are using Local Storage.
+Note: There is no integration of backend in this website. For login and signup feautures i am using Local Storage.
