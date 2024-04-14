@@ -3,7 +3,7 @@ Website you can enroll and remove number of courses on your dashboard after logi
 
 
 # Key learnings from this project:
-✔️ Parcel
+✔️ Parcel <br />
 ✔️JavaScript Fundamentals
 ✔️Local Storage
 ✔️ Config Driven UI
